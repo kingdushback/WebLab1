@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Style.css">
+	<title>Just another title</title>
+	<script src="./js/script.js"></script>
+</head>
+<body>
+	<div class="inputs">
+		<div class="checkboxes">
+		    <input type="radio" id="year"
+		     name="type" checked>
+		    <label for="year">Year</label><br><br>
+
+		    <input type="radio" id="trivia"
+		     name="type">
+		    <label for="trivia">Trivia</label><br><br>
+
+		    <input type="radio" id="date"
+		     name="type">
+		    <label for="date">Date</label><br><br>
+
+		    <input type="radio" id="math"
+		     name="type">
+		    <label for="math">Math</label><br><br>
+	  	</div>
+		<div class="checkboxes">
+		    <input type="radio" id="NoRound"
+		     name="round" checked>
+		    <label for="NoRound">No rounding</label><br><br>
+
+		    <input type="radio" id="Floor"
+		     name="round">
+		    <label for="Floor">Floor to closest</label><br><br>
+
+		    <input type="radio" id="Ceil"
+		     name="round">
+		    <label for="Ceil">Ceil to closest</label><br><br>
+	  	</div>
+		<input type="number" id = "number" placeholder="Type the number here">
+		<button onclick="DoTheThing()">Go</button>
+	</div>
+	<div class = "results">
+		<label>Result: </label>
+		<label id = "result"></label>
+	</div>
+</body>
+</html>

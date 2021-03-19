@@ -1,0 +1,16 @@
+.inputs
+{
+	position: center;
+	margin-left: 40%;
+	margin-top: 15%;
+}
+.results
+{
+	margin-left: 40%;
+	margin-top: 5%;
+}
+.checkboxes
+{
+	width: auto;
+	margin-bottom: 10px;
+}
